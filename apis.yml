@@ -1,87 +1,31 @@
-name: Netreveal APIs
-description: APIs for BAE Systems' Netreveal fraud detection and financial crime prevention platform
-image: https://www.baesystems.com/logo.png
-url: https://www.baesystems.com/en/product/netreveal
-created: '2025-01-20'
-modified: '2025-01-20'
-apis:
-- name: Netreveal Case Management API
-  description: API for managing fraud cases, investigations, and alerts within the Netreveal platform
-  baseURL: https://api.netreveal.com/v1/cases
-  humanURL: https://www.baesystems.com/en/product/netreveal
-  properties:
-  - type: Documentation
-    url: https://api.netreveal.com/docs/case-management
-  - type: OpenAPI
-    url: https://api.netreveal.com/specs/case-management.json
-  tags:
-  - fraud detection
-  - case management
-  - investigations
-  - financial crime
-- name: Netreveal Analytics API
-  description: API for accessing fraud analytics, risk scoring, and behavioral analysis
-  baseURL: https://api.netreveal.com/v1/analytics
-  humanURL: https://www.baesystems.com/en/product/netreveal
-  properties:
-  - type: Documentation
-    url: https://api.netreveal.com/docs/analytics
-  - type: OpenAPI
-    url: https://api.netreveal.com/specs/analytics.json
-  tags:
-  - analytics
-  - risk scoring
-  - behavioral analysis
-  - fraud detection
-- name: Netreveal Alert Management API
-  description: API for creating, updating, and managing fraud alerts and notifications
-  baseURL: https://api.netreveal.com/v1/alerts
-  humanURL: https://www.baesystems.com/en/product/netreveal
-  properties:
-  - type: Documentation
-    url: https://api.netreveal.com/docs/alerts
-  - type: OpenAPI
-    url: https://api.netreveal.com/specs/alerts.json
-  tags:
-  - alerts
-  - notifications
-  - fraud prevention
-  - monitoring
-- name: Netreveal Entity Resolution API
-  description: API for entity resolution, identity verification, and network analysis
-  baseURL: https://api.netreveal.com/v1/entities
-  humanURL: https://www.baesystems.com/en/product/netreveal
-  properties:
-  - type: Documentation
-    url: https://api.netreveal.com/docs/entity-resolution
-  - type: OpenAPI
-    url: https://api.netreveal.com/specs/entity-resolution.json
-  tags:
-  - entity resolution
-  - identity verification
-  - network analysis
-  - KYC
-common:
-- type: Authentication
-  url: https://api.netreveal.com/docs/authentication
-- type: Rate Limits
-  url: https://api.netreveal.com/docs/rate-limits
-- type: Status
-  url: https://status.netreveal.com
-- type: Terms of Service
-  url: https://www.baesystems.com/en/terms-of-use
-- type: Privacy Policy
-  url: https://www.baesystems.com/en/privacy-policy
-- type: Support
-  url: https://www.baesystems.com/en/support
-maintainers:
-- name: BAE Systems Applied Intelligence
-  email: netreveal-support@baesystems.com
-  url: https://www.baesystems.com
+aid: netreveal
+name: Netreveal
+description: >-
+  Netreveal is BAE Systems Applied Intelligence's financial crime detection and
+  prevention platform providing analytics for anti-money laundering, fraud
+  detection, and regulatory compliance for banks and financial institutions.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-- fraud detection
-- financial crime
-- AML
-- compliance
-- risk management
-- analytics
+  - Fraud Detection
+  - Financial Crime
+  - AML
+  - Compliance
+  - Risk Management
+url: https://raw.githubusercontent.com/api-evangelist/netreveal/refs/heads/main/apis.yml
+created: '2025-01-20'
+modified: '2026-03-16'
+specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://www.baesystems.com/en/product/netreveal
+  - type: Terms of Service
+    url: https://www.baesystems.com/en/terms-of-use
+  - type: Privacy Policy
+    url: https://www.baesystems.com/en/privacy-policy
+  - type: Support
+    url: https://www.baesystems.com/en/support
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
