@@ -7,10 +7,10 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Fraud Detection
-  - Financial Crime
   - AML
   - Compliance
+  - Financial Crime
+  - Fraud Detection
   - Risk Management
 url: https://raw.githubusercontent.com/api-evangelist/netreveal/refs/heads/main/apis.yml
 created: '2025-01-20'
