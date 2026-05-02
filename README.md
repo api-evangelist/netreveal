@@ -1,90 +1,42 @@
-# Netreveal APIs (netreveal)
-APIs for BAE Systems' Netreveal fraud detection and financial crime prevention platform
+# Netreveal (netreveal)
 
-**URL:** [Visit APIs.json URL](https://www.baesystems.com/en/product/netreveal)
+Netreveal is BAE Systems Applied Intelligence's financial crime detection and prevention platform, providing analytics for anti-money laundering, fraud detection, sanctions screening, and regulatory compliance for banks and financial institutions. Netreveal does not currently publish public developer-facing APIs; integrations are typically delivered through customer engagements.
 
-## Tags:
+**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/netreveal/refs/heads/main/apis.yml)
 
- - fraud detection, financial crime, AML, compliance, risk management, analytics
+## Scope
+
+- **Type:** Index
+- **Position:** Consumer
+- **Access:** 3rd-Party
+
+## Tags
+
+- AML
+- Compliance
+- Financial Crime
+- Fraud Detection
+- Risk Management
+- Sanctions Screening
 
 ## Timestamps
 
-- **Created:** 2025-01-20 
-- **Modified:** 2025-01-20 
+- **Created:** 2025-01-20
+- **Modified:** 2026-04-28
 
 ## APIs
 
-### Netreveal Case Management API
-API for managing fraud cases, investigations, and alerts within the Netreveal platform
-
-**Human URL:** [https://www.baesystems.com/en/product/netreveal](https://www.baesystems.com/en/product/netreveal)
-
-
-#### Tags:
-
- - fraud detection, case management, investigations, financial crime
-
-#### Properties
-
-- [Documentation](https://api.netreveal.com/docs/case-management)
-- [OpenAPI](https://api.netreveal.com/specs/case-management.json)
-
-### Netreveal Analytics API
-API for accessing fraud analytics, risk scoring, and behavioral analysis
-
-**Human URL:** [https://www.baesystems.com/en/product/netreveal](https://www.baesystems.com/en/product/netreveal)
-
-
-#### Tags:
-
- - analytics, risk scoring, behavioral analysis, fraud detection
-
-#### Properties
-
-- [Documentation](https://api.netreveal.com/docs/analytics)
-- [OpenAPI](https://api.netreveal.com/specs/analytics.json)
-
-### Netreveal Alert Management API
-API for creating, updating, and managing fraud alerts and notifications
-
-**Human URL:** [https://www.baesystems.com/en/product/netreveal](https://www.baesystems.com/en/product/netreveal)
-
-
-#### Tags:
-
- - alerts, notifications, fraud prevention, monitoring
-
-#### Properties
-
-- [Documentation](https://api.netreveal.com/docs/alerts)
-- [OpenAPI](https://api.netreveal.com/specs/alerts.json)
-
-### Netreveal Entity Resolution API
-API for entity resolution, identity verification, and network analysis
-
-**Human URL:** [https://www.baesystems.com/en/product/netreveal](https://www.baesystems.com/en/product/netreveal)
-
-
-#### Tags:
-
- - entity resolution, identity verification, network analysis, KYC
-
-#### Properties
-
-- [Documentation](https://api.netreveal.com/docs/entity-resolution)
-- [OpenAPI](https://api.netreveal.com/specs/entity-resolution.json)
+No public APIs are currently published for Netreveal.
 
 ## Common Properties
 
-- [Authentication](https://api.netreveal.com/docs/authentication)
-- [Rate Limits](https://api.netreveal.com/docs/rate-limits)
-- [Status](https://status.netreveal.com)
+- [Website](https://www.baesystems.com/en/cybersecurity)
 - [Terms of Service](https://www.baesystems.com/en/terms-of-use)
 - [Privacy Policy](https://www.baesystems.com/en/privacy-policy)
-- [Support](https://www.baesystems.com/en/support)
+- [Contact](https://www.baesystems.com/en/contact-us)
 
 ## Maintainers
 
-**FN:** BAE Systems Applied Intelligence
+**FN:** Kin Lane
 
-**Email:** netreveal-support@baesystems.com
+**Email:** kin@apievangelist.com
