@@ -26,9 +26,9 @@ apis: []
 common:
   - type: Website
     url: https://www.baesystems.com/en/cybersecurity
-  - type: Terms of Service
+  - type: TermsOfService
     url: https://www.baesystems.com/en/terms-of-use
-  - type: Privacy Policy
+  - type: PrivacyPolicy
     url: https://www.baesystems.com/en/privacy-policy
   - type: Contact
     url: https://www.baesystems.com/en/contact-us
